@@ -4,22 +4,6 @@
 <nav class="foot-nav">
     <ul class="footer-nav" role="menu">
         <li class="nav-item"><a class="nav-item-footer" href="/contact">Contact Us</a></li>
-        <?php 
-        
-        if(isset($_SESSION["role"])) {
-            if ($_SESSION["role"] == "Admin") {
-                ?>
-                    <li class="nav-item"><a class="nav-item-footer" href="/admin/">Admin Panel</a></li> 
-                <?php
-            }
-            
-            if ($_SESSION["role"] == "Admin" xor $_SESSION["role"] == "Employee") {
-                ?>
-                    <li class="nav-item"><a class="nav-item-footer" href="/employee/">Employee Panel</a></li> 
-                <?php
-            }
-        }
-        ?>
     </ul>
 </nav>
 <p>© <a href="https://firepower.host/">FirePower</a> 2019</p>
@@ -39,7 +23,7 @@
     ?>
 
 <?php
-    require "/var/www/cjs.zone/includes/template/js/analytics.js";
+    require "/includes/template/js/analytics.js";
 ?>
 </footer>
 </html>

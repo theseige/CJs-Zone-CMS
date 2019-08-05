@@ -17,7 +17,7 @@
     <div>
             <h1 class="logo">
                 <a href="/">
-                    <img src="https://cjs.zone/static/images/core/logo/fplogosmall.png" alt="CJsZone">
+                    <img src="/static/images/core/logo/fplogosmall.png" alt="CJsZone">
                 </a>    
             </h1>
 
@@ -39,14 +39,6 @@
         <nav id="nav" class="nav reveal" style="display:none;">
             <ul role="navigation">
                 <li class="nav-item nav-top"><a class="nav-top-link" href="/">Home</a></li>
-                <li class="nav-item nav-top"><a class="nav-top-link" href="/services/">Services</a></li>
-				<?php
-				            if(isset($_SESSION["loggedin"])) {
-				?>
-				                <li class="nav-item nav-top"><a class="nav-top-link" href="/account/billing/">Billing</a></li>
-				<?php
-				}
-				?>
             </ul>
         </nav>
     </div>
