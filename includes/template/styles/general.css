@@ -1,0 +1,286 @@
+/*  */
+/* Normalize */
+/*  */
+
+    html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: #9f9f9f;
+    }
+    
+    a:hover, a:focus {
+        color: #9f9f9f;
+    }
+    
+
+    body {
+        text-align:center;
+        margin:0;
+        background:#111;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        max-width:65em;
+        margin:0 auto;
+        text-align:center;
+    }
+/*  */
+/* Navigation Bar */
+/*  */
+
+
+    header[role="banner"] > div {
+        max-width: 65em;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: left;
+        position: relative;
+        background:#111;
+    }
+    
+    header[role="banner"] a:hover, header[role="banner"] a:focus {
+        color: #fff;
+    }
+    
+    header[role="banner"] .nav {
+        border-top: 1px solid #333;
+        clear: left;
+    }
+    
+    .logo  {
+        padding:0;
+        float: left;
+        margin:0;
+    }
+    
+    .logo a {
+        width: 100px;
+        height: 19px;
+    }
+    
+    .logo a img {
+        width:42px;
+        height:24px;
+    }
+    
+    .nav {
+        position: relative;
+        width: 100%;
+        background-color: #000;
+        top:0;
+        margin:0;
+        padding-inline-start:0;
+    }
+    
+    .nav li {
+        display: inline-block;
+        position: relative;
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    
+    .nav li a {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        color: #9f9f9f;
+    }
+    
+    .nav-account {
+        float:right;
+        list-style:none;
+    }
+    
+    .nav-account a {
+        display: block;
+        padding: 0.6em 0.8em;
+        border-left: 1px solid #333;
+    }
+    
+    .nav-anchors {
+        float:right;
+    }
+    
+        
+    .nav-anchors a {
+        display: block;
+        padding: 0.6em 0.8em;
+        border-left: 1px solid #333;
+    }
+    
+    .nav-anchors li {
+            display: inline-block;
+    }
+        
+    .nav-item {
+        float:left;
+        margin:1em;
+        list-style:none;
+    }
+    
+     .nav-item :any-link {
+        font-family: fantasy;
+        text-decoration:none;
+        border-right: 1px solid #333;
+    }
+    
+    .nav-item :any-link:hover {
+        text-decoration:underline;
+    }
+    
+    .nav-item-footer {
+        padding:1em;
+    }
+    
+    
+    /* Currently represents only the home button */
+    .nav-top {
+        margin:2%;
+    }
+    
+    
+    /* Modifications to top logo of page*/
+    .site-top-logo {
+        background: url(https://seige.tech/static/images/core/logo/fplogosmall.png);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+        float: left;
+    }
+    
+/*  */
+/* Side Bar */
+/*  */
+
+
+
+    .sidebar {
+        position:fixed;
+        width:20%;
+        height:100%;
+        background-color:#424242;
+        top:50px;
+        left:0;
+        text-align:center;
+        border-top-style:ridge;
+    }
+    
+    .sidebar p {
+        color:#FFF;
+    }
+    
+
+    
+    .side-nav {
+        margin:0;
+        padding:0;
+    }
+    
+    /* Represents the sidebar navigation buttons */
+    .side-nb {
+        padding:5%;
+        width:95%;
+    }
+    
+    
+/*  */
+/* Footer Mods */
+/*  */
+    
+    
+    footer p {
+        color:#9f9f9f;
+        width:100%;
+        float:left;
+        height:50px;
+    }
+    
+    footer p a {
+        color: #9f9f9f;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .foot-nav {
+        float:left;
+        width:100%;
+        height:50px;
+    }
+    
+    .footer-nav {
+        
+        margin-block-start:0;
+        width:100%;
+    }
+    
+    .site-nav {
+        float:left;
+        width:100%;
+        background-color:#000;
+    }
+    
+/*  */
+/* Content Mods */
+/*  */
+
+    
+    .content {
+        text-align: center;
+        max-width: 65em;
+        margin: 0 auto;
+        background:#fff;
+        border-radius: .5em;
+        padding: 1em;
+    }
+    
+    .content a {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-stretch: expanded;
+        }
+
+    .content h1 {
+        font-family:cursive;
+        text-align:center;
+    }
+    
+    .content p {
+        font-family:sans-serif;
+        font-size:1.3em;
+        padding:.7em;
+    }
+    
+    
+/*  */
+/* Responsiveness Mods */
+/*  */
+
+    /*  */
+    /* Content Mods */
+    /*  */
+    
+    @media screen and (min-width:40.5em) {
+        
+        .nav-anchors {
+            display:none;
+        }
+        
+        
+        .content {
+            font-size:1em;
+        }
+        
+        .sidebar {
+            width:10%;
+        }
+        
+    }
