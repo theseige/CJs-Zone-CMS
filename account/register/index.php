@@ -1,6 +1,6 @@
 <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/head.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/head.php';
 
     
     // Define variables and initialize with empty values
@@ -115,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p>Already have an account? <a href="/account/login/">Login here</a>.</p>
         </form>
     <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/footer.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/footer.php';
 
     ?>

@@ -6,7 +6,7 @@
 <head>
 <title><?php if (isset($titleToUse)) {
     echo $titleToUse; ?> - <?php
-       } ?>FirePower</title>
+       } ?>CJ's Zone</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link type="text/css" rel="stylesheet" href="/includes/template/styles/bootstrap.min.css">
 <link type="text/css" rel="stylesheet" href="/includes/template/styles/general.min.css">

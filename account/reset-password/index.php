@@ -1,6 +1,6 @@
 <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/head.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/head.php';
 
 // Check if the user is logged in, if not then redirect to login page
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
 
     <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/footer.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/footer.php';
 
     ?>

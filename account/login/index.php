@@ -1,6 +1,6 @@
 <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/head.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/head.php';
 
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
@@ -82,6 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close connection
     unset($pdo);
 }
+
 ?>
     
         <h2>Login</h2>
@@ -105,7 +106,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>    
 
     <?php
-    require '/var/www/firepower.host/includes/db/connect.php';
-    require '/var/www/firepower.host/includes/template/footer.php';
-
-    ?>
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/db/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/includes/template/footer.php';

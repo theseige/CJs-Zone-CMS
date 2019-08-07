@@ -6,7 +6,7 @@
         <li class="nav-item"><a class="nav-item-footer" href="/contact">Contact Us</a></li>
     </ul>
 </nav>
-<p>© <a href="https://firepower.host/">FirePower</a> 2019</p>
+<p>© <a href="/">CJ's Zone</a> 2019</p>
 <script type="text/javascript" src="/includes/template/js/jq.js"></script>
 <script type="text/javascript" src="/includes/template/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/includes/template/js/firescript.js"></script>
