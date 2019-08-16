@@ -23,7 +23,7 @@
     ?>
 
 <?php
-    require "/includes/template/js/analytics.js";
+    require $_SERVER['DOCUMENT_ROOT'] . "/includes/template/js/analytics.js";
 ?>
 </footer>
 </html>
