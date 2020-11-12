@@ -1,3 +1,9 @@
-# CJs-Zone-CMS
+# CJs-CMS
 CJs CMS
-The CMS that powers CJs Zone
+
+Goals of CJs CMS out of the box
+- Fast -
+- SEO Optimized -
+- Stable -
+- Extendable -
+- Easy to Use -
